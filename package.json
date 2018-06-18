@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sockets API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Franko Campos",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.2",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.6",
+    "socket.io": "^2.0.4",
+    "opencv4nodejs": "^4.5.1"
+  },
+  "devDependencies": {}
+}
